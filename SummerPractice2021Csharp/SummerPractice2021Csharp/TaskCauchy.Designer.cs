@@ -60,7 +60,7 @@ namespace SummerPractice2021Csharp
             series2.Name = "Решение методом Эйлера";
             this.chart1.Series.Add(series1);
             this.chart1.Series.Add(series2);
-            this.chart1.Size = new System.Drawing.Size(1349, 590);
+            this.chart1.Size = new System.Drawing.Size(930, 497);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "Графики решений";
             // 
@@ -68,7 +68,7 @@ namespace SummerPractice2021Csharp
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label1.Location = new System.Drawing.Point(265, 617);
+            this.label1.Location = new System.Drawing.Point(11, 521);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(746, 17);
             this.label1.TabIndex = 1;
@@ -79,7 +79,7 @@ namespace SummerPractice2021Csharp
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label2.Location = new System.Drawing.Point(265, 646);
+            this.label2.Location = new System.Drawing.Point(11, 550);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(235, 17);
             this.label2.TabIndex = 2;
@@ -88,7 +88,7 @@ namespace SummerPractice2021Csharp
             // textBoxN
             // 
             this.textBoxN.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.textBoxN.Location = new System.Drawing.Point(506, 643);
+            this.textBoxN.Location = new System.Drawing.Point(252, 547);
             this.textBoxN.Name = "textBoxN";
             this.textBoxN.Size = new System.Drawing.Size(120, 23);
             this.textBoxN.TabIndex = 3;
@@ -96,7 +96,7 @@ namespace SummerPractice2021Csharp
             // DrawGraphics
             // 
             this.DrawGraphics.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.DrawGraphics.Location = new System.Drawing.Point(660, 641);
+            this.DrawGraphics.Location = new System.Drawing.Point(406, 545);
             this.DrawGraphics.Name = "DrawGraphics";
             this.DrawGraphics.Size = new System.Drawing.Size(154, 27);
             this.DrawGraphics.TabIndex = 4;
@@ -108,24 +108,25 @@ namespace SummerPractice2021Csharp
             // 
             this.MaxNevyazka.AutoSize = true;
             this.MaxNevyazka.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.MaxNevyazka.Location = new System.Drawing.Point(897, 646);
+            this.MaxNevyazka.Location = new System.Drawing.Point(578, 550);
             this.MaxNevyazka.Name = "MaxNevyazka";
-            this.MaxNevyazka.Size = new System.Drawing.Size(0, 17);
+            this.MaxNevyazka.Size = new System.Drawing.Size(166, 17);
             this.MaxNevyazka.TabIndex = 5;
+            this.MaxNevyazka.Text = "Максимальная невязка:";
             // 
             // TaskCauchy
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1373, 679);
+            this.ClientSize = new System.Drawing.Size(960, 581);
             this.Controls.Add(this.MaxNevyazka);
             this.Controls.Add(this.DrawGraphics);
             this.Controls.Add(this.textBoxN);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.chart1);
-            this.MaximumSize = new System.Drawing.Size(1389, 718);
-            this.MinimumSize = new System.Drawing.Size(1389, 718);
+            this.MaximumSize = new System.Drawing.Size(976, 620);
+            this.MinimumSize = new System.Drawing.Size(976, 620);
             this.Name = "TaskCauchy";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
